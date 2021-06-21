@@ -5,7 +5,7 @@ public class Scan {
     public static void scan(){
         System.out.println("Введите выражение");
         Scanner scan = new Scanner (System.in);
-        Scan.str = scan.nextLine();
+        setStr(scan.nextLine());
     }
     public static String getStr (){
         return Scan.str;
